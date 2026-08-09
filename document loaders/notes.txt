@@ -1,0 +1,104 @@
+Comprehensive Psychology Notes
+
+1. Introduction
+- Psychology is the scientific study of mind and behavior.
+- It spans biological, cognitive, social, developmental, clinical, and applied domains.
+- Depth psychology focuses on unconscious processes, but psychology as a whole integrates many perspectives.
+
+2. Biological Psychology
+- Brain structures: cortex, limbic system, brainstem.
+- Neurotransmitters: dopamine, serotonin, GABA, acetylcholine.
+- Genetics and heritability of traits.
+- Psychophysiology: stress response, hormones, sleep cycles.
+
+3. Cognitive Psychology
+- Perception: how we interpret sensory input.
+- Attention: selective focus, divided attention.
+- Memory: short-term, long-term, working memory.
+- Language: acquisition, comprehension, production.
+- Problem-solving and decision-making.
+
+4. Developmental Psychology
+- Lifespan stages: infancy, childhood, adolescence, adulthood, aging.
+- Cognitive development: Piaget’s stages.
+- Social development: attachment theory, Erikson’s psychosocial stages.
+- Moral development: Kohlberg’s stages.
+- Aging and cognitive decline.
+
+5. Social Psychology
+- Group dynamics: conformity, obedience, leadership.
+- Attitudes and persuasion.
+- Prejudice, stereotypes, discrimination.
+- Interpersonal attraction and relationships.
+- Social identity and cultural influences.
+
+6. Personality Psychology
+- Trait theories: Big Five (OCEAN).
+- Psychodynamic theories: Freud, Jung.
+- Humanistic theories: Maslow, Rogers.
+- Behavioral and social learning approaches.
+- Personality assessment methods.
+
+7. Clinical Psychology
+- Mental disorders: anxiety, depression, schizophrenia, bipolar disorder.
+- Diagnostic systems: DSM, ICD.
+- Therapy approaches: psychoanalysis, CBT, humanistic therapy, behavior therapy.
+- Trauma and PTSD.
+- Positive psychology interventions.
+
+8. Depth Psychology
+- Unconscious mind: personal vs collective unconscious.
+- Archetypes: self, shadow, anima/animus, hero, mother, trickster.
+- Dream analysis and symbolism.
+- Active imagination and mythological study.
+- Ecopsychology: human-nature connection.
+
+9. Health Psychology
+- Stress and coping mechanisms.
+- Mind-body connection: psychosomatic illness.
+- Lifestyle factors: exercise, diet, sleep.
+- Chronic illness and psychological adjustment.
+- Health promotion and prevention.
+
+10. Industrial/Organizational Psychology
+- Workplace motivation and productivity.
+- Leadership styles and organizational culture.
+- Job satisfaction and burnout.
+- Personnel selection and training.
+- Human factors and ergonomics.
+
+11. Educational Psychology
+- Learning theories: behaviorism, constructivism.
+- Motivation in learning.
+- Classroom management and pedagogy.
+- Special education and inclusive practices.
+- Assessment and evaluation.
+
+12. Positive Psychology
+- Well-being and happiness.
+- Flow and engagement.
+- Resilience and strengths.
+- Gratitude and mindfulness.
+- Meaning and purpose in life.
+
+13. Research Methods in Psychology
+- Experimental design: variables, control, randomization.
+- Observational studies and case studies.
+- Surveys and questionnaires.
+- Statistical analysis: correlation, regression, ANOVA.
+- Ethical considerations in research.
+
+14. Applications of Psychology
+- Clinical practice and therapy.
+- Education and learning enhancement.
+- Workplace and organizational improvement.
+- Sports psychology and performance.
+- Environmental psychology and sustainability.
+
+15. Integration and Future Directions
+- Neuroscience and psychology convergence.
+- AI and cognitive modeling.
+- Cross-cultural psychology.
+- Ecopsychology and climate change.
+- Holistic approaches combining biology, cognition, and depth psychology.
+
