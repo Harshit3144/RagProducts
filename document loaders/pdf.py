@@ -1,7 +1,7 @@
-from langchain_community.document_loaders import PyPDFLoader
+from langchain_community.document_loaders import TextLoader
 
-data = PyPDFLoader("document loaders/GRU.pdf")
+data = TextLoader("document loaders/notes.txt")
 
 docs=data.load()
 
-print(docs[14].page_content)
+print(docs)
