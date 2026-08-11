@@ -1,37 +1,37 @@
 import os
 from dotenv import load_dotenv
 
-
 from langchain_mistralai import ChatMistralAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-from langchain_core.runnables import RunnableParallel, RunnableLambda
+from langchain_core.runnables import RunnableParallel
 
+# Load environment variables
 load_dotenv()
+api_key = os.getenv("MISTRAL_API_TOKEN")
+print("Loaded key:", api_key)  # Debug check
+
+# Use a proper chat model
 model = ChatMistralAI(
-    model = "mistral-moderation-2603",
-    api_key = os.getenv("MISTRAL_API_TOKEN")
+    model="mistral-small-2402",   # ✅ change to a chat model
+    api_key=api_key
 )
+
 parser = StrOutputParser()
-#two differnt prompt
-short_prompt = ChatPromptTemplate.from_template(
-    "explain {topic} in short way"
-)
-detailed_prompt = ChatPromptTemplate.from_template(
-    "explain {topic} in detailed way"
-)
 
-topic = "troy war & odessay"
+# Two different prompts
+short_prompt = ChatPromptTemplate.from_template("Explain {topic} in short way")
+detailed_prompt = ChatPromptTemplate.from_template("Explain {topic} in detailed way")
 
+topic = "troy war & odyssey"
+
+# Parallel chain
 chain = RunnableParallel({
-    "short": RunnableLambda(lambda x:x['short'])|short_prompt | model | parser,
-    "detailed": RunnableLambda(lambda x:x['detailed'])|detailed_prompt | model | parser
+    "short": short_prompt | model | parser,
+    "detailed": detailed_prompt | model | parser
 })
 
-response = chain.invoke({
-    "short": {"topic": "troy war & odessay"},
-    "detailed": {"topic": "troy war & odessay"}
-})
+response = chain.invoke({"topic": topic})
 
-print(response["short"])
-print(response["detailed"])
+print("Short:", response["short"])
+print("Detailed:", response["detailed"])

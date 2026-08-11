@@ -16,7 +16,7 @@ template = ChatPromptTemplate.from_messages(
 )
 
 model = ChatMistralAI(
-    model = "mistral-small-2603",
+    model = "mistral-small-2402",
     api_key = os.getenv("MISTRAL_API_TOKEN")
 )
 
